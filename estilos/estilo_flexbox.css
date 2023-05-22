@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: black;
+}
+#itens{
+    display: none;
+}
+.itens1{
+    display: none;
+}
+.lista1{
+    list-style-type: none;
+    font-size: large;
+    padding-top: 5px;
+    background-color: #070A52;
+    border-top: 2px solid black;
+}
+.lista1:hover{
+    background-color: black;
+    color: whitesmoke;
+    border-top: 2px solid rgb(255, 255, 255);
+}
+.lista2{
+    display: none;
+}
+header{
+    background-color: #070A52;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+
+}
+.sub_titulo1{
+    margin-bottom: 10px;
+}
+#burguer{
+
+    background-color: #070A52;
+    color: white;
+    width: 90vw;
+    border-radius: 10px;
+}
+
+main{
+    background-image: linear-gradient(to bottom, #070A52, rgb(61, 61, 61));
+    width: 90vw;
+    margin: auto;
+    border-radius: 10px;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.esp_pesquisa1{
+    background-color: gray;
+    display: none;
+    justify-content: center;
+}
+.barra_pesquisa1{
+    width: 30%;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.esp_pesquisa2{
+    display: flex;
+    justify-content: center;
+}
+.barra_pesquisa2{
+    width: 70%;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.sessoes{
+    background-color: #b61313;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    list-style-type: none;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: white;
+}
+
+.esporte{
+    padding: 5px;
+    border-radius: 3px;
+    transition: 0.4s;
+    width: 100%;
+}
+.esporte:hover{
+    background-color: green;
+    color: rgb(209, 207, 207);
+}
+.economia{
+    padding: 5px;
+    border-radius: 3px;
+    transition: 0.4s;
+    width: 100%;
+}
+.economia:hover{
+    background-color: blue;
+    color: rgb(201, 200, 200);
+}
+.politica{
+    padding: 5px;
+    border-radius: 3px;
+    transition: 0.4s;
+    width: 100%;
+}
+.politica:hover{
+    background-color: red;
+    color: rgb(255, 254, 254);
+}
+.name{
+    display: none;
+    width: 50%;
+    background-color: whitesmoke;
+    margin: auto;
+    border-radius: 15px;
+    color: rgb(31, 30, 30);
+}
+
+.name1{
+    display: none;
+    width: 50%;
+    background-color: whitesmoke;
+    margin: auto;
+    border-radius: 15px;
+    color: rgb(31, 30, 30);
+}
+
+.name2{
+    display: none;
+    width: 50%;
+    background-color: whitesmoke;
+    margin: auto;
+    border-radius: 15px;
+    color: rgb(31, 30, 30);
+}
+
+
+.titulo_recentes{
+    text-align: center;
+    background-color: #050635;
+    color: white;
+    border-radius: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: auto;
+    margin-bottom:1%;
+
+
+}
+.art_recente{
+    padding-top: 10px;
+    width: 90%;
+    margin: auto;
+}
+
+.tn1{
+    margin: 5px;
+    background-color: #000363;
+    color: white;
+    border-radius: 10px;
+    transition: 0.4s;
+    padding-left: 5%;
+}
+.tn1:hover{
+    background-color: black;
+    color: white;
+}
+.tn2{
+    margin: 5px;
+    background-color: #000363;
+    color: white;
+    border-radius: 10px;
+    transition: 0.4s;
+    padding-left: 5%;
+}
+.tn2:hover{
+    background-color: black;
+    color: white;
+}
+.tn3{
+    margin: 5px;
+    background-color: #000363;
+    color: white;
+    border-radius: 10px;
+    transition: 0.4s;
+    padding-left: 5%;
+}
+.tn3:hover{
+    background-color: black;
+    color: white;
+}
+
+.noticia1{
+    display: none;
+    margin: auto;
+    background-color: rgb(252, 252, 252);
+    color: black;
+    width: 80%;
+    padding: 1%;
+}
+.noticia2{
+    display: none;
+    margin: auto;
+    background-color: rgb(252, 252, 252);
+    color: black;
+    width: 80%;
+    padding: 1%;
+}
+.noticia3{
+    display: none;
+    margin: auto;
+    background-color: rgb(252, 252, 252);
+    color: black;
+    width: 80%;
+    padding: 1%;
+}
+
+.titulo_mais{
+    margin-top: 5%;
+    text-align: center;
+    background-color: #050635;
+    color: white;
+    border-radius: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.recentes{
+    padding: 1%;
+}
+.slider{
+    display: none;
+}
+
+.imagem1{
+    margin: auto;
+    margin-top: 20px;
+    height: 200px;
+    width: 400px;
+    background-image: url(https://www.rbsdirect.com.br/imagesrc/35362656.jpg?w=1024&rv=2-10-05&safari);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titulo_nimg1{
+    padding-top: 40%;
+    padding-left: 17%;
+    color: white;
+    backdrop-filter: blur(1px);
+}
+
+.imagem2{
+    margin: auto;
+    margin-top: 20px;
+    height: 200px;
+    width: 400px;
+    background-image: url(https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2022/07/25/urubu-do-pix-ts57uyt7t7aw.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titulo_nimg2{
+    padding-top: 40%;
+    padding-left: 17%;
+    color: white;
+    backdrop-filter: blur(2px);
+}
+
+.imagem3{
+    margin: auto;
+    margin-top: 20px;
+    height: 200px;
+    width: 400px;
+    background-image: url(https://media.alemdaenergia.engie.com.br/uploads/2020/10/aeroporto-640x360.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.titulo_nimg3{
+    padding-top: 40%;
+    padding-left: 26%;
+    color: WHITE;
+    backdrop-filter: blur(2px);
+}
+
+
+
+.final{
+    background-color: rgb(195, 199, 199);
+    width: 90vw;
+    margin: auto;
+    padding-top: 15px;
+}
+.titulo_final{
+    text-align: center;
+}
+.contato{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+.titulos-recentes{
+    display: none;
+}
+.imagens-rt{
+    display: none;
+}
+.blur1{
+    display: none;
+}
+.blur2{
+    display: none;
+}
+.blur3{
+    display: none;
+}
+.confira{
+    display: none;
+}
+.t-r1{
+    display: none;
+}

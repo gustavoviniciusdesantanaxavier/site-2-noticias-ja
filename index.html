@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="estilos/estilo_flexbox.css">
+    <link rel="stylesheet" href="estilos/responsivo.css">
+
+
+</head>
+<body onresize="mudouTamanho()">
+    <header >
+        <h1 class="titulo1">NOTICIAS JÁ</h1>
+        <h2 class="sub_titulo1">noticias em primeira mão</h2>
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+        <nav id="itens" class="itens">
+            <li class="lista1"><b>REGIONAIS</b></li>
+            <li class="lista1"><b>NACIONAIS</b></li>
+            <li class="lista1"><b>INTERNACIONAIS</b></li>
+        </nav>
+
+        <nav id="itens1" class="itens1">
+            <li class="lista2"><b>REGIONAIS</b></li>
+            <li class="lista2"><b>NACIONAIS</b></li>
+            <li class="lista2"><b>INTERNACIONAIS</b></li>
+        </nav>
+        <div class="esp_pesquisa1">
+            <input class="barra_pesquisa1"  type="search" name="pesquisa" placeholder="pesquise por noticias">
+        </div>
+    </header>
+
+    <main>
+        <div class="esp_pesquisa2">
+            <input class="barra_pesquisa2"  type="search" name="pesquisa" placeholder="pesquise por noticias">
+        </div>
+        <h2 class="confira">CONFIRA</h2>
+        <nav class="sessoes">
+            <div class="sessoes2">
+                <div class="cont_esp">
+                    <li class="esporte" onclick="espo()"><b>ESPORTES</b></li>
+                    <article class="name">
+                        <h4>futebol</h4>
+                        <h4>volei</h4>
+                        <h4>basquete</h4>
+                    </article>
+                </div>
+                <div class="cont_eco">
+                    <li class="economia" onclick="eco()"><b>ECONOMIA</b></li>
+                    <article class="name1">
+                        <h4>investimentos</h4>
+                        <h4>governo</h4>
+                        <h4>perigos</h4>
+                    </article>
+                </div>
+                <div class="cont_poli">
+                    <li class="politica" onclick="poli()"><b>POLITICA</b> </li>
+                    <article class="name2">
+                        <h4>municipal</h4>
+                        <h4>estadual</h4>
+                        <h4>federal</h4>
+                    </article>
+                </div>
+            </div>
+            <section class="slider">
+                <div class="slider-content">
+                    <input type="radio" name="btn-radio" id="radio1">
+                    <input type="radio" name="btn-radio" id="radio2">
+                    <input type="radio" name="btn-radio" id="radio3">
+
+                    <div class="slide-box primeiro img1">
+                        <img src="https://arenavirtual.net/uploads/images/2018/10/24-1539982558.jpg" alt="img1" class="img-slide" width="400" height="200">
+                    </div>
+
+                    <div class="slide-box img2">
+                        <img src="https://finclass.com/blog/wp-content/uploads/2022/06/image-3-1024x575.jpeg" alt="img2" class="img-slide" width="420" height="200">
+                    </div>
+
+                    <div class="slide-box img3">
+                        <img src="https://images03.brasildefato.com.br/7a8f8dc3bb6b029c82e9aa7d4794342f.jpeg" alt="img3" class="img-slide" width="420" height="200">
+                    </div>
+
+                    <div class="nav-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                    </div>
+
+                    <div class="nav-manual">
+                        <label for="radio1" class="manual-btn" ></label>
+                        <label for="radio2" class="manual-btn" ></label>
+                        <label for="radio3" class="manual-btn" ></label>
+                    </div>
+                </div>
+            </section>
+        </nav>
+        <div class="recentes">
+            <div class="titulo_r">
+                <h3 class="titulo_recentes">CONFIRA AS MAIS RECENTES</h3>
+            </div>
+
+            <div class="recentes2">
+                <div class="t-r1">
+                    <h2>NOTICIAS</h2>
+                </div>
+                <div class="titulos-recentes">
+                    <div class="coluna1 col">
+                        <h3 class="t-1">MORRE PREFEITO</h3>
+                    </div>
+                    <div class="coluna2 col">
+                        <h3 class="t-2">CONCURSO ABERTO</h3>
+                    </div>
+                    <div class="coluna3 col">
+                        <h3 class="t-3">VAGAS DE EMPREGO</h3>
+                    </div>
+                </div>
+                <div class="imagens-rt">
+                    <div class="imagem-r1">
+                        <div class="efect-1">
+                            <p>morre essa semana prefefeito da cidade de ibatuba em tragico acidente, para mais <a href="">clique aqui</a></p>
+                        </div>
+                    </div>
+                    <div class="imagem-r2">
+                        <div class="efect-2">
+                            <p>Prefeitura de João Pessoa abre concurso com mais de 5 mil vagas para diversos setores. para mais <a href="">clique aqui</a></p>
+                        </div>
+                    </div>
+                    <div class="imagem-r3">
+                        <div class="efect-3">
+                            <p>Empresas prometem empregos a jovens mas vendem curso, para mais <a href="">clique aqui</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="conteudo">
+                    <h3 class="tn1" onclick="n1()">morre prefeito</h3>
+                    <div class="noticia1">
+                        <p>morre essa semana prefefeito da cidade de ibatuba em tragico acidente, para mais <a href="">clique aqui</a></p>
+                    </div>
+                    <h3 class="tn2" onclick="n2()">concurso aberto</h3>
+                    <div class="noticia2">
+                        <p>Prefeitura de João Pessoa abre concurso com mais de 5 mil vagas para diversos setores. para mais <a href="">clique aqui</a> </p>
+                    </div>
+                    <h3 class="tn3" onclick="n3()">golpe do jovem aprendiz</h3>
+                    <div class="noticia3">
+                        <p>Empresas prometem empregos a jovens mas vendem curso, para mais <a href="">clique aqui</a> </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="titulo_r">
+            <h3 class="titulo_mais">MAIS ACESSADAS</h3>
+        </div>
+        <div class="mais_acessadas">
+            <div class="imagem1">
+                <div class="blur1"><h3>INCENDIO EM JOÃO PESSOA</h3></div>
+                <div class="titulo_nimg1">
+                    <h3>INCENDIO EM JOÃO PESSOA</h3>
+                </div>
+            </div>
+            <div class="imagem2">
+                <div class="blur2"><h3>GOLPE DO URUBU DO PIX</h3></div>
+                <div class="titulo_nimg2">
+                    <h3>GOLPE DO URUBU DO PIX</h3>
+                </div>
+            </div>
+            <div class="imagem3">
+                <div class="blur3"><h3>VIAGENS MAIS BARATAS</h3></div>
+                <div class="titulo_nimg3">
+                    <h3>VIAGENS MAIS BARATAS</h3>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        var radio = document.querySelector('.manual-btn')
+        var cont = 1
+
+        document.getElementById('radio1').checked = true
+
+        setInterval(() => {
+            proximaImg()
+        }, 5000)
+
+        function proximaImg(){
+            cont++
+            if(cont >3){
+                cont = 1
+            }
+            document.getElementById('radio'+cont).checked = true
+        }
+        function clickMenu(){
+           if(itens.style.display == 'block'){
+            itens.style.display='none'
+            } else {itens.style.display='block'}
+        }
+
+        function mudouTamanho(){
+            if (window.innerWidth >= 768){
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function espo(){
+            const name = document.querySelector(".name");
+            if (name.style.display === "block") {
+            name.style.display = "none";
+            } else {
+            name.style.display = "block";
+            }
+        }
+
+        function eco(){
+            const name1 = document.querySelector(".name1");
+            if (name1.style.display === "block") {
+            name1.style.display = "none";
+            } else {
+            name1.style.display = "block";
+            }
+        }
+
+        function poli(){
+            const name2 = document.querySelector(".name2");
+            if (name2.style.display === "block") {
+            name2.style.display = "none";
+            } else {
+            name2.style.display = "block";
+            }
+        }
+
+        function n1(){
+            const noticia1 = document.querySelector(".noticia1");
+            if (noticia1.style.display === "block") {
+            noticia1.style.display = "none";
+            } else {
+            noticia1.style.display = "block";
+            }
+        }
+
+        function n2(){
+            const noticia2 = document.querySelector(".noticia2");
+            if (noticia2.style.display === "block") {
+            noticia2.style.display = "none";
+            } else {
+            noticia2.style.display = "block";
+            }
+        }
+
+        function n3(){
+            const noticia3 = document.querySelector(".noticia3");
+            if (noticia3.style.display === "block") {
+            noticia3.style.display = "none";
+            } else {
+            noticia3.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>

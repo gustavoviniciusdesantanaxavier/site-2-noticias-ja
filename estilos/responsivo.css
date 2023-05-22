@@ -1,0 +1,423 @@
+@media screen and (min-width: 768px){
+    body{
+        background-color: white;
+    }
+    header{
+        background-color: #070A52;
+        color: white;
+    }
+    main{
+        border-radius: 0px;
+        width: 98.7vw;
+        padding: 0px;
+        background-color: #070A52;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -o-border-radius: 0px;
+    }
+    .confira{
+        text-align: center;
+        background-color: #D21312;
+        color: white;
+    }
+
+    .sessoes{
+        width: 100vw;
+        background-color: black;
+    }
+    .sessoes2{
+        background-color: black;
+        color: white;
+    }
+    .sub_titulo1{
+        display: none;
+    }
+    .material-icons{
+        display: none;
+    }
+    .itens1{
+        display: flex;
+        justify-content: center;
+    }
+    .lista2{
+        display: inline-block;
+        font-size: large;
+        padding-top: 5px;
+        background-color: #070A52;
+        border-bottom: 2px solid black;
+        width: 25%;
+        margin-left: 1%;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+    }
+    .lista2:hover{
+        background-color: white;
+        color: black;
+        border-bottom: 2px solid black;
+    }
+    .esp_pesquisa1{
+        display: flex;
+        border-radius: 1px;
+        background-color: #070A52;
+    }
+    .esp_pesquisa2{
+        display: none;
+    }
+    .sessoes{
+        background-color: #D21312;
+        height: 350px;
+        display: flex;
+        flex-flow: row;
+        margin-top: 0px;
+    }
+    .sessoes2{
+        height: 350px;
+        margin-bottom: 5px;
+        list-style-type: none;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+        text-align: center;
+        width: 50%;
+        background-color: #D21312;
+    }
+    .esporte{
+        width: 20%;
+
+    }
+    .economia{
+        width: 20%;
+    }
+    .politica{
+        width: 20%;
+    }
+    .name{
+        margin: 1%;
+        width: 20%;
+    }
+    .name1{
+        margin: 1%;
+        width: 20%;
+    }
+    .name2{
+        margin: 1%;
+        width: 20%;
+    }
+
+
+    .titulo_recentes{
+        background-color: #0a0d64;
+        color: white;
+        border-radius: 10px;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        margin: auto;
+        width: 50%;
+
+    }
+    .mais_acessadas{
+        background-color: #ED2B2A;
+        padding-bottom: 5%;
+    }
+    .titulos-recentes{
+        display: flex;
+        flex-flow: row;
+        justify-content: space-around;
+        color: white;
+    }
+    .imagens-rt{
+        display: flex;
+        justify-content: space-around;
+    }
+    .col{
+        display: flex;
+        flex-flow: column;
+    }
+    .imagem-r1{
+        height: 200px;
+        width: 400px;
+        background-image: url(https://portalt5-cdn1.cworks.cloud/fileadmin/_processed_/2/c/csm_ENTERRO_PREFEITO_PEDRAS_DE_FOGO_321e471d95.jpeg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .efect-1{
+        position: absolute;
+        background-color: black;
+        height: 200px;
+        width: 29.6%;
+        opacity: 0;
+        color: white;
+    }
+
+    .efect-1 p{
+        padding: 5%;
+        padding-top: 37%;
+    }
+    .efect-1:hover{
+        opacity: 0.6;
+        transition: 0.8s;
+        -webkit-transition: 0.8s;
+        -moz-transition: 0.8s;
+        -ms-transition: 0.8s;
+        -o-transition: 0.8s;
+    }
+    .imagem-r2{
+        height: 200px;
+        width: 400px;
+        background-image: url(https://educacao.sme.prefeitura.sp.gov.br/wp-content/uploads/2021/09/Concurso_-768x438.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .efect-2{
+        position: absolute;
+        background-color: black;
+        height: 200px;
+        width: 29.6%;
+        opacity: 0;
+        color: white;
+    }
+    .efect-2 p{
+        padding: 5%;
+        padding-top: 37%;
+    }
+    .efect-2:hover{
+        opacity: 0.6;
+        transition: 0.8s;
+        -webkit-transition: 0.8s;
+        -moz-transition: 0.8s;
+        -ms-transition: 0.8s;
+        -o-transition: 0.8s;
+    }
+    .imagem-r3{
+        height: 200px;
+        width: 400px;
+        background-image: url(https://img.freepik.com/fotos-premium/operarios-trabalhando-no-laptop-na-fabrica-de-bebidas_107420-75826.jpg?w=740);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .efect-3{
+        position: absolute;
+        background-color: black;
+        height: 200px;
+        width: 29.6%;
+        opacity: 0;
+        color: white;
+    }
+    .efect-3 p{
+        padding: 5%;
+        padding-top: 37%;
+    }
+    .efect-3:hover{
+        opacity: 0.6;
+        transition: 0.8s;
+        -webkit-transition: 0.8s;
+        -moz-transition: 0.8s;
+        -ms-transition: 0.8s;
+        -o-transition: 0.8s;
+    }
+    .recentes2{
+        background-color: #0a0d64;
+        max-height: 100%;
+        min-height: 280px;
+    }
+    .conteudo{
+        display: none;
+        width: 30%;
+        margin-left: 70%;
+    }
+    .tn1{
+        width: 90%;
+    }
+    .tn2{
+        width: 90%;
+    }
+    .tn3{
+        width: 90%;
+    }
+    .noticia1{
+        margin: 0px;
+        width: 80%;
+    }
+    .noticia2{
+        margin: 0px;
+        width: 80%;
+    }
+    .noticia3{
+        margin: 0px;
+        width: 80%;
+    }
+
+    .titulo_mais{
+        background-color: #ED2B2A;
+        color: white;
+        margin: auto;
+        width: 50%;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+    }
+
+    .mais_acessadas{
+        display: flex;
+    }
+
+
+    .t-r1{
+        display: flex;
+        justify-content: center;
+    }
+    .t-r1 h2{
+        color: white;
+    }
+    section.slider{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    width: 30%;
+    overflow: hidden;
+    }
+    .slider-content{
+    display: flex;
+    width: 100%;
+    }
+    .slider-content input{
+        display: none;
+    }
+    .slide-box{
+        height: 200px;
+        width: 400px;
+        position: relative;
+        text-align: center;
+        transition: 1s;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -ms-transition: 1s;
+        -o-transition: 1s;
+    }
+    .nav-manual, .nav-auto{
+        display: flex;
+        position: absolute;
+        width: 15%;
+        margin-top: 13%;
+        margin-left: 10%;
+    }
+    .nav-manual .manual-btn, .nav-auto div{
+        border: 1px solid;
+        padding: 10px;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: 0.2s;
+        -webkit-transition: 0.2s;
+        -moz-transition: 0.2s;
+        -ms-transition: 0.2s;
+        -o-transition: 0.2s;
+    }
+    .nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child){
+        margin-right: 10px;
+    }
+    .nav-manual .manual-btn:hover{
+        background-color: red;
+    }
+    #radio1:checked ~ .nav-auto .auto-btn1{
+        background-color: red;
+    }
+    #radio2:checked ~ .nav-auto .auto-btn2{
+        background-color: red;
+    }
+    #radio3:checked ~ .nav-auto .auto-btn3{
+        background-color: red;
+    }
+    #radio1:checked ~ .primeiro{
+        margin-left: 0%;
+    }
+    #radio2:checked ~ .primeiro{
+        margin-left: -100%;
+    }
+    #radio3:checked ~ .primeiro{
+        margin-left: -200%;
+    }
+    .blur1{
+        display: block;
+        position: absolute;
+        height: 200px;
+        width: 29.6%;
+        backdrop-filter: blur(0px);
+        color: transparent;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+    }
+    .blur1:hover{
+        backdrop-filter: blur(1px);
+        color: white;
+    }
+    .blur1 h3{
+        text-align: center;
+        margin-top: 41%;
+    }
+    .blur2{
+        display: block;
+        position: absolute;
+        height: 200px;
+        width: 29.6%;
+        backdrop-filter: blur(0px);
+        color: transparent;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+    }
+    .blur2:hover{
+        backdrop-filter: blur(1px);
+        color: white;
+    }
+    .blur2 h3{
+        text-align: center;
+        margin-top: 41%;
+    }
+    .blur3{
+        display: block;
+        position: absolute;
+        height: 200px;
+        width: 29.6%;
+        backdrop-filter: blur(0px);
+        color: transparent;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+    }
+    .blur3:hover{
+        backdrop-filter: blur(1px);
+        color: white;
+    }
+    .blur3 h3{
+        text-align: center;
+        margin-top: 41%;
+    }
+    .titulo_nimg1{
+        display: none;
+    }
+    .titulo_nimg2{
+        display: none;
+    }
+    .titulo_nimg3{
+        display: none;
+    }
+
+}
